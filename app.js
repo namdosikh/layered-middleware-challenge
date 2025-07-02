@@ -13,6 +13,9 @@ const errorHandler = require('./middleware/errorHandler');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var tweetsRouter = require('./routes/tweets');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/blogDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
 var app = express();
 
