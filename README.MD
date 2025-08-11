@@ -48,6 +48,10 @@ git clone https://github.com/namdosikh/layered-middleware-challenge.git
 npm i
 ```
 
+### Configure your MongoDB  
+
+Don't forget to create a new database named "blogDB" with a collection named "posts". (Actually, this will be based on your configuration on `app.js`. Feel free to adjust it!)
+
 ### Start the backend
 
 ```bash
